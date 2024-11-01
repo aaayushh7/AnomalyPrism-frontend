@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:4000/api';  // Updated to match Flask server address
+const API_URL = 'https://anomalyprism-backend.onrender.com/api';  // Updated to match Flask server address
 
 const api = axios.create({
   baseURL: API_URL,
