@@ -33,7 +33,7 @@ export const trainModel = async (file) => {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
-        timeout: 90000,
+        timeout: 120000,
       });
       
       console.log('Server response:', response);
